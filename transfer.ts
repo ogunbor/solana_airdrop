@@ -11,7 +11,7 @@ import {
 import wallet from "./dev-wallet.json";
 const from = Keypair.fromSecretKey(new Uint8Array(wallet));
 
-const to = new PublicKey("817xvAc8N1fcFXDuWqNbGeVTnr9cYdULSZjqoBhgg7eQ");
+const to = new PublicKey("7KcXubMkQubU13HvSjMDSNJukz3dxTao5Cs6hSvWNspp");
 
 const connection = new Connection("https://api.devnet.solana.com");
 (async () => {
